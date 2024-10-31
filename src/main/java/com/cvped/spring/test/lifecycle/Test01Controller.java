@@ -9,7 +9,7 @@ public class Test01Controller {
 
 	@ResponseBody
 	@RequestMapping("/lifecycle/test01/1")
-	public String stringTest01() {
+	public String stringTest0() {
 		return "<h2>테스트 프로젝트 완성";
 	}
 }
